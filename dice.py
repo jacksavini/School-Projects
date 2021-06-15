@@ -2,6 +2,17 @@
 #CS 102
 #dice game python project
 
+'''
+Two players take turning trying to get to get a score of 100. 
+As their turn begin, a player has 0 turn-points. They can either 
+roll the dice or hold. When they roll there are two possible outcomes. 
+Most of the time the sum of the dice is added to the person’s 
+turn-points and they get another turn. But if the sum is 2, 7 or 12 
+then they Bust, they lose all turn-points, and their turn is over. 
+Once a player’s turn is over, then it is the other player’s chance to score. 
+Whoever gets to 100 points first (and holds) wins!
+'''
+
 from random import *
 
 #Introduction to the game
