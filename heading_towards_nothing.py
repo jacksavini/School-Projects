@@ -4,6 +4,14 @@
 #3-3-20
 #heading towards nothing project
 
+'''
+For this project, I was tasked with doing the following:
+Imagine picking 4 (positive) integers and putting them at the corners of a square. 
+Then at the midpoint of each edge write the (absolute value) of the difference of the corners. 
+Connect these four numbers into a new square, and at the midpoint of those edges put the 
+absolute values of those differences. Repeat forever. What happens?
+'''
+
 #I'll need the randint function to make my list
 from random import *
 
@@ -123,8 +131,6 @@ def main():
     print("After", num_rounds, "rounds, The final list is", new_list)
 
 main()
-
-#Question 10:
 
 #From what I can tell from running my program a million times with different
 #lengths of lists, the numbers only converge on zero when the length is a
